@@ -1,0 +1,9 @@
+[[redirects]]
+from = "/*"
+to = "index.html"
+status = 200
+
+[build]
+  command = "pnpm build-storybook && mv ./storybook-static ./dist/storybook-static
+
+  publish = "/storybook-static"
