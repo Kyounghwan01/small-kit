@@ -1,5 +1,7 @@
 [build]
-  command = "pnpm run build-storybook && pnpm run mv-file
+  command = "yarn build-storybook" && yarn mv-file
 
   publish = "storybook-static"
 
+
+  
